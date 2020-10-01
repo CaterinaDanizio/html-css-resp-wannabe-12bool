@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* regole di debug */
+
+[class*="col-"] {
+  min-height: 100px;
+  /* background-color: pink;
+  border: solid 1px  black; */
+  text-align: center;
+  padding: 10px;
+}
+
+h1, h2, p {
+  padding-top: 30px;
+}
+
+
+[class*="col-xs"] img {
+  height: 300px;
+  width: auto;
+}
+
+[class*="col-md"] img {
+  height: 100px;
+  width: auto;
+}
+
+[class*="col-lg"] img {
+  height: 200px;
+  width: auto;
+}
+
+ .circle img {
+   background-color: #428bca;
+   border-radius: 50%;
+   padding: 30px
+}
+
+div.linea {
+  border-bottom: 1px solid black;
+}
